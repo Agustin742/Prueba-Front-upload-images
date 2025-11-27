@@ -21,7 +21,7 @@ const App = () => {
       console.log(valor);
     })
 
-    const urlBack = 'http://localhost:8080/api/v1/uploads/'
+    const urlBack = 'https://prueba-back-upload-images.onrender.com/api/v1/uploads/'
     const options = {
       method: 'POST',
       body: formData
